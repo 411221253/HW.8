@@ -1,4 +1,5 @@
-#IF
+#ifndef MAX
+#define MAX 10
 
 
 typedef struck axis{
@@ -15,5 +16,6 @@ void push(stack_t *stack, axis_t axis);
 axis_t pop(stack_t *stack);
 int isEmpty(stack_t *stack);
 
+#endif
 
 
