@@ -1,6 +1,9 @@
-#ifndef MAX
-#define MAX 10
+#ifndef STACK_H
+#define STACK_H
 
+#define M_SIZE 10
+
+#define EQU(p, q) (p.x == q.x && p.y == q.y)
 
 typedef struck axis{
   int x;
